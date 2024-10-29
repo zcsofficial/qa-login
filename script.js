@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: "POST",
-            url: "http://127.0.0.1:5000/register", // Update with your server URL
+            url: "https://qa-login.onrender.com/register", // Update with your server URL
             contentType: "application/json",
             data: JSON.stringify({
                 username: username,
@@ -39,7 +39,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: "POST",
-            url: "http://127.0.0.1:5000/login", // Update with your server URL
+            url: "https://qa-login.onrender.com/login", // Update with your server URL
             contentType: "application/json",
             data: JSON.stringify({
                 username: username,
